@@ -10,13 +10,14 @@ import {
   FaPython,
 } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
-import { SiMongodb, SiPostgresql, SiNextdotjs } from "react-icons/si";
+import { SiMongodb, SiPostgresql, SiNextdotjs, SiC, SiCplusplus  } from "react-icons/si";
 import image1 from "../assets/image1.jpg";
 import SkillsCard from "../Component/SkillCard";
 
 const About = () => {
   const skills = [
-    { icon: TbBrandCpp, label: "C++" },
+    { icon: SiC, label: "C" },
+    { icon: SiCplusplus , label: "C++" },
     { icon: FaJsSquare, label: "JavaScript" },
     { icon: FaNodeJs, label: "Node.js" },
     { icon: FaReact, label: "React" },
