@@ -43,6 +43,10 @@ const Projects = () => {
           <p className="text-gray-300 mb-3">
             Get feedback on your answers using OpenAI API with React + Express + MongoDB.
           </p>
+           <a href="https://ai-interview-preparation-one.vercel.app/" className="text-purple-400 underline mr-8">
+            Try it here
+          </a>
+          
            <a
             href="https://github.com/chetanp87/Doc-Bot-Conversation"
             target="_blank"
@@ -51,9 +55,7 @@ const Projects = () => {
           >
             View on GitHub
           </a>
-          <a href="https://ai-interview-preparation-one.vercel.app/" className="text-purple-400 underline">
-            Coming Soon
-          </a>
+         
         </div>
       </div>
     </section>
